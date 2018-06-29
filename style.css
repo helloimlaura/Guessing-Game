@@ -1,0 +1,93 @@
+
+      body{
+          margin: 20px;
+          background-image: url('math.jpg');
+      }
+      footer{
+        background-color: gainsboro;
+      }
+      #app{
+        background-color: rgba(255, 255, 255, 0.52);
+        width: 60%;
+        padding-top: 5px;
+        margin: auto;
+        height: 707px;
+      }
+      #headers h1{
+        color: rgb(167, 21, 21);
+        margin-top: 20px;
+        text-shadow: 1px 2px 2px rgba(81,99,98,0.5);
+      }
+      #headers h2{
+        color:rgb(196, 48, 159);
+        text-shadow: 1px 2px 2px rgba(81,99,98,0.5);
+      }
+      .center {
+        text-align: center;
+      }
+      ul {
+          list-style: none;
+          padding: 0;
+      }
+      img {
+          display: inline;
+          width: 200px;
+          height: 55px;
+      }
+      #footer {
+          width: 100%;
+          border-top: solid 2px black;
+          background-color: white;
+          position: fixed;
+          bottom: 0;
+      }
+      .guess {
+          display: inline-block;
+          font-size: 16px;
+          border: 3px solid rgba(122, 128, 139, 0.315);
+          background-color: rgb(255, 255, 255);
+          width: 70px;
+          height: 70px;
+          border-radius: 25%;
+          margin-top: 5px;
+          box-shadow: 2px 2px 7px 1px rgba(113,138,136,0.68);
+          padding-top: 20px;
+          padding-bottom: 20px;
+      }
+      button{
+          display:inline-block;
+          width: 80px;
+          height: 40px;
+          box-shadow: 2px 2px 7px 1px rgba(113,138,136,0.68);
+          vertical-align: center;
+          text-align: center;
+      }
+      .footer-element{
+          display: inline-block;
+          text-align: center;
+          width: 33%;
+          padding-bottom: 10px;
+          vertical-align: top;
+          margin-top: 10px;
+      }
+      #player-input{
+          display: inline-block;
+          font-size: 50px;
+          height: 150px;
+          width: 160px;
+          margin: 15px auto 15px auto;
+          border: 3px solid rgba(122, 128, 139, 0.42);
+          border-radius: 600px / 560px;
+          box-shadow: 2px 2px 7px 1px rgba(113,138,136,0.68);
+          
+      }
+      #submit{
+        position: relative;
+        left: 67px;
+        top: -68px;
+        height: 55px;
+        width: 55px;
+        margin: auto;
+        border-radius: 50%;
+        box-shadow: 2px 2px 7px 1px rgba(113,138,136,0.68);
+      }
